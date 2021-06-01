@@ -5,7 +5,7 @@ const animate = str => {
   setTimeout(()=>{
     for (let ele of str){
       process.stdout.write(ele);
-      time = time + 300 ;
+      time = time + 500 ;
       }
   },time);
 }
